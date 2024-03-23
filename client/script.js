@@ -1,4 +1,4 @@
-const socket = io("http://localhost:8000");
+const socket = io("https://server-smoky-one.vercel.app");
 
 const send_form = document.getElementById("send_form");
 const msg_inp = document.getElementById("msgbox");
